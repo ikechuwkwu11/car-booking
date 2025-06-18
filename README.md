@@ -16,21 +16,25 @@ A simple and user-friendly car booking system built with Flask. Users can regist
 - ORM support via SQLAlchemy
 
 ## 🧰 Tech Stack
-- Component	Technology
-- Backend	Flask
-- Auth	Flask-Login
-- Password Hashing	Werkzeug
-- ORM	SQLAlchemy
-- Database	SQLite (default)
-- Language	Python 3.x
+| Component         | Technology       |
+| ----------------- | ---------------- |
+| Backend Framework | Flask            |
+| Authentication    | Flask-Login      |
+| Password Hashing  | Werkzeug         |
+| ORM               | SQLAlchemy       |
+| Database          | SQLite (default) |
+| Language          | Python 3.x       |
+
 
 ## 🔒 Routes Overview
-- Route	Description
-- /Homepage with car listings
-- /register	Register a new user
-- /login	Log in existing user
-- /logout	Log out
-- /book/<car_id>	Book a car (auth required)
+| Route            | Description                          |
+| ---------------- | ------------------------------------ |
+| `/`              | Homepage with available car listings |
+| `/register`      | Register a new user                  |
+| `/login`         | Log in an existing user              |
+| `/logout`        | Log out the current session          |
+| `/book/<car_id>` | Book a car (requires authentication) |
+)
 
 ## 🛠 To-Do
 - Add admin dashboard for managing cars
