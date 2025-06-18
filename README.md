@@ -34,7 +34,7 @@ A simple and user-friendly car booking system built with Flask. Users can regist
 | `/login`         | Log in an existing user              |
 | `/logout`        | Log out the current session          |
 | `/book/<car_id>` | Book a car (requires authentication) |
-)
+
 
 ## 🛠 To-Do
 - Add admin dashboard for managing cars
